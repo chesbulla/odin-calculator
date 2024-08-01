@@ -15,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 16px;
+    flex-direction: column;
 }
 
 
@@ -42,7 +43,11 @@ body {
     border-radius: 15px;
     display: flex;
     justify-content: flex-end;
-    font-size: 30px;
+    min-height: fit-content;
+    min-width: fit-content;
+    font-size: 20px;
+    flex: 1 1 auto; /* flex-grow: 1; flex-shrink: 1; flex-basis: auto; */
+    
 
 }
 
@@ -75,7 +80,7 @@ button {
 
 #btn-0 {
     height: 30px;
-    flex: 2 1 0;
+    flex: 4 1 0;
     border-radius: 15px;
     font-family: "Roboto Mono" ;
     border-width: 0.5px;
