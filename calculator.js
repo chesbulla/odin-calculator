@@ -49,7 +49,6 @@ function parseInput(key){
     //if the key pressed is an operator, equation.a will take this value
     
     key = key.split("btn-")[1];
-    console.log(key);
     if (key === "decimal") key = ".";
     
     
@@ -79,7 +78,6 @@ function parseInput(key){
 
     if (["equals"].includes(key)) {
         //calculate result
-        console.log(checkValidEquation());
         if (checkValidEquation()){
             let result = calculateResult();
             updateEquation(result);
@@ -124,10 +122,6 @@ function parseInput(key){
 
 
     }
-    console.table(equation);
-
-
-
 
 }
 
