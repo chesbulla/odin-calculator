@@ -21,6 +21,7 @@ body {
 
 
 .container-calculator {
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,12 +33,17 @@ body {
 }
 
 .calculator-display {
+   
     margin: 10px;
     height:10px;
     width: 100px;
     padding: 30px;
     background-color: #F5EDED;
     border-radius: 15px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+
 }
 
 
